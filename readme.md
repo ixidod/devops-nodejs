@@ -1,10 +1,9 @@
 # Just simple dockerized nodejs app for **k8s** testings.
 
 ```
-kubectl run demo --image zavulon/devops-nodeslim:v1 --port=8000 --labels app=demo
+kubectl run demonode --image zavulon/devops-nodeslim:v1 --port=8000 --labels app=demonode
 ```
 
 ```
-kubectl port-forward pod/demo 8000:8000
-
+kubectl port-forward pod/demonode 8000:8000
 ```
