@@ -2,6 +2,9 @@
 
 ```
 kubectl run demo --image zavulon/devops-nodeslim:v1 --port=8000 --labels app=demo
+```
+
+```
 kubectl port-forward pod/demo 8000:8000
 
 ```
