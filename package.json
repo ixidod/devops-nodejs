@@ -1,0 +1,21 @@
+{
+  "name": "devops-nodejs",
+  "version": "1.0.0",
+  "description": "node app with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "devops",
+    "gitops",
+    "api",
+    "express",
+    "js"
+  ],
+  "author": "Patrycjusz Myszka",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
